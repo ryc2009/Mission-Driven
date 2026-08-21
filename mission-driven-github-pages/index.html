@@ -1,197 +1,450 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Mission Driven | Building Digital Foundations for Social Good</title>
+  <title>Mission Driven | Building Digital Foundations for Social Good</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet"
+  />
 
-<link href="styles.css" rel="stylesheet"/></head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
 <body class="page-home bg-surface-container-low text-on-background font-body-md antialiased min-h-screen flex flex-col structural-grid relative">
-<!-- TopNavBar -->
-<header class="bg-surface/80 dark:bg-surface-container-highest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-primary/10 transition-all duration-200 ease-in-out">
-<div class="flex justify-between items-center w-full px-margin-desktop py-unit max-w-max-width mx-auto">
-<div class="flex items-center gap-4 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] transition-all duration-200">
-<span class="font-headline-lg text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed">Mission Driven</span>
-</div>
-<nav class="hidden md:flex gap-8 items-center h-full">
-<a class="font-label-sm text-label-sm uppercase text-secondary font-bold border-b-2 border-secondary pb-1 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] transition-all duration-200" href="index.html">Home</a>
-<a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200" href="about.html">About Us</a>
-<a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200" href="portfolio.html">Portfolio</a>
-<a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200" href="volunteer.html">Volunteer</a>
-</nav>
-<div class="flex items-center">
-<button class="md:hidden text-primary">
-<span class="material-symbols-outlined" data-icon="menu">menu</span>
-</button>
-</div>
-</div>
-</header>
-<main class="flex-grow pt-24">
-<!-- Hero Section -->
-<section class="relative pt-12 pb-32 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto overflow-hidden bg-surface-container-lowest my-8 rounded-xl shadow-sm border border-surface-container-highest">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter relative z-10 p-8">
-<div class="col-span-1 md:col-span-8 flex flex-col justify-center">
-<div class="inline-flex items-center gap-2 mb-6 font-label-sm text-label-sm uppercase text-vital-green">
-<span class="w-8 h-[1px] bg-vital-green"></span>
-                        STRUCTURAL EMPATHY
-                    </div>
-<h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-8 tracking-tight max-w-3xl">
-                        Building Digital Foundations for Social Good.
-                    </h1>
-<p class="font-body-md text-body-md text-on-surface-variant mb-12 max-w-2xl leading-relaxed">
-                        We architect precise, human-centric digital experiences for mission-driven organizations. Combining the rigor of blueprints with the warmth of community impact.
-                    </p>
-<div class="flex flex-wrap gap-4">
-<button class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase px-8 py-4 rounded hover:text-on-secondary transition-colors flex items-center gap-2 border-b-2 border-secondary shadow-sm hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] hover:bg-vital-green" onclick="window.location.href='portfolio.html'" type="button">
-                            View Portfolio
-                            <span class="material-symbols-outlined" data-icon="architecture" style="font-size: 20px;">architecture</span>
-</button>
-<button class="bg-transparent border border-outline text-primary font-label-sm text-label-sm uppercase px-8 py-4 rounded hover:bg-surface-container transition-colors flex items-center gap-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)]" onclick="window.location.href='volunteer.html'" type="button">
-                            Partner With Us
-                        </button>
-</div>
-</div>
-<div class="hidden md:block col-span-4 relative">
-<div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-[500px] h-[500px] border border-secondary/20 rounded-full flex items-center justify-center opacity-50">
-<div class="w-[300px] h-[300px] border border-secondary/30 rounded-full flex items-center justify-center">
-<div class="w-[100px] h-[100px] bg-secondary-container/30 rounded-full"></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Featured Projects (Bento Grid) -->
-<section class="py-24 px-margin-mobile md:px-margin-desktop bg-secondary/5 border-y border-secondary/10">
-<div class="max-w-max-width mx-auto">
-<div class="flex flex-col md:flex-row justify-between items-end mb-16">
-<div>
-<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Featured Projects</h2>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
-                            Architectural precision applied to real-world impact. Explore our recent collaborations with visionary nonprofits.
-                        </p>
-</div>
-<button class="hidden md:flex text-secondary font-label-sm text-label-sm uppercase items-center gap-2 hover:text-secondary-container transition-colors mt-6 md:mt-0" onclick="window.location.href='portfolio.html'" type="button">
-                        See All Projects
-                        <span class="material-symbols-outlined text-vital-green" data-icon="arrow_outward">arrow_outward</span>
-</button>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
-<!-- Project 1: Large Span -->
-<div class="col-span-1 md:col-span-8 group architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 flex flex-col relative overflow-hidden">
-<div class="flex justify-between items-start mb-6 z-10 relative">
-<span class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container px-3 py-1 rounded">Environmental</span>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">eco</span>
-</div>
-<div class="flex-grow z-10 relative mb-8">
-<div class="h-64 w-full bg-surface-container-high rounded mb-6 overflow-hidden relative">
-<img class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A clean, modern website interface displayed on a laptop screen for an environmental nonprofit called EcoYouth. The UI features lush green accents, high-quality photography of youth planting trees, and clear typography on a stark white background. The overall aesthetic is professional, minimalist, and deeply connected to nature and community action." src="images/ecoyouth.png"/>
-<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors"></div>
-</div>
-<h3 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">EcoYouth</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Digital infrastructure supporting youth-led environmental initiatives across urban centers.</p>
-</div>
-<div class="mt-auto z-10 relative">
-<button class="text-secondary font-label-sm text-label-sm uppercase flex items-center gap-2 group-hover:gap-4 transition-all" onclick="window.location.href='portfolio.html'" type="button">
-                                Learn More <span class="material-symbols-outlined">east</span>
-</button>
-</div>
-<!-- Blueprint decoration -->
-<div class="absolute -bottom-24 -right-24 w-64 h-64 border border-secondary/10 rounded-full z-0 group-hover:scale-110 transition-transform duration-700"></div>
-</div>
-<!-- Projects 2 & 3: Vertical Stack -->
-<div class="col-span-1 md:col-span-4 flex flex-col gap-gutter">
-<!-- Project 2 -->
-<div class="flex-1 architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 group relative overflow-hidden">
-<div class="flex justify-between items-start mb-4 z-10 relative">
-<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Community</span>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">location_city</span>
-</div>
-<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2 z-10 relative">City Shelter</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm z-10 relative">Streamlining access to emergency housing resources.</p>
-<div class="h-32 w-full bg-surface-container-high rounded mb-4 overflow-hidden relative z-10">
-<img class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A mobile app interface displaying a map with safe shelter locations. The UI is clean, functional, and highly accessible, using a calming color palette of soft blues and stark whites. The design emphasizes clarity, with large legible typography and intuitive iconography, reflecting a modern approach to crisis response tools." src="images/city-shelter.png"/>
-</div>
-<button class="text-primary font-label-sm text-label-sm uppercase flex items-center gap-1 group-hover:text-secondary transition-colors z-10 relative mt-auto" onclick="window.location.href='portfolio.html'" type="button">
-                                View Case Study <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</button>
-</div>
-<!-- Project 3 -->
-<div class="flex-1 architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 group relative overflow-hidden">
-<div class="flex justify-between items-start mb-4 z-10 relative">
-<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Education</span>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">palette</span>
-</div>
-<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2 z-10 relative">Arts For All</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm z-10 relative">Interactive platform for accessible arts education.</p>
-<div class="h-32 w-full bg-surface-container-high rounded mb-4 overflow-hidden relative z-10">
-<img class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A colorful yet structured web portal interface designed for arts education. The screen shows a grid of vibrant art classes balanced by strict architectural grid lines and generous whitespace. The UI feels both creative and deeply organized, showcasing high-contrast typography and engaging thumbnails of art projects." src="images/arts-for-all.png"/>
-</div>
-<button class="text-primary font-label-sm text-label-sm uppercase flex items-center gap-1 group-hover:text-secondary transition-colors z-10 relative mt-auto" onclick="window.location.href='portfolio.html'" type="button">
-                                View Case Study <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</button>
-</div>
-</div>
-</div>
-</div></section>
-<!-- Our Impact Stats -->
-<section class="py-24 px-margin-mobile md:px-margin-desktop relative bg-primary-container border-t-4 border-vital-green" id="impact">
-<div class="max-w-max-width mx-auto">
-<div class="text-center mb-16">
-<h2 class="font-headline-lg text-headline-lg text-on-primary mb-4">Structural Impact</h2>
-<p class="font-body-md text-body-md text-inverse-on-surface max-w-2xl mx-auto opacity-90">
-                        Measuring the tangible outcomes of well-architected digital solutions in the nonprofit sector.
-                    </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-<!-- Stat 1 -->
-<div class="flex flex-col items-center text-center group">
-<div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
-<span class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors" style="font-size: 32px;">rocket_launch</span>
-</div>
-<div class="font-display-lg text-display-lg text-on-primary mb-2">45+</div>
-<div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
-<h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">Nonprofits Launched</h4>
-</div>
-<!-- Stat 2 -->
-<div class="flex flex-col items-center text-center group">
-<div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
-<span class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors" style="font-size: 32px;">favorite</span>
-</div>
-<div class="font-display-lg text-display-lg text-on-primary mb-2">$12M</div>
-<div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
-<h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">Donations Facilitated</h4>
-</div>
-<!-- Stat 3 -->
-<div class="flex flex-col items-center text-center group">
-<div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
-<span class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors" style="font-size: 32px;">public</span>
-</div>
-<div class="font-display-lg text-display-lg text-on-primary mb-2">2M+</div>
-<div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
-<h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">Community Members Reached</h4>
-</div>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-primary-container dark:bg-surface-container-lowest w-full py-16 px-margin-desktop border-t-2 border-primary/20 transition-all duration-200">
-<div class="flex flex-col md:flex-row justify-between items-start gap-gutter max-w-max-width mx-auto">
-<div class="font-headline-lg text-headline-lg-mobile text-on-primary dark:text-primary mb-4 md:mb-0">
-                Mission Driven
+
+  <!-- Top Navigation -->
+  <header class="bg-surface/80 dark:bg-surface-container-highest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-primary/10 transition-all duration-200 ease-in-out">
+    <div class="flex justify-between items-center w-full px-margin-desktop py-unit max-w-max-width mx-auto">
+
+      <div class="flex items-center gap-4 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] transition-all duration-200">
+        <span class="font-headline-lg text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed">
+          Mission Driven
+        </span>
+      </div>
+
+      <nav class="hidden md:flex gap-8 items-center h-full">
+        <a
+          class="font-label-sm text-label-sm uppercase text-secondary font-bold border-b-2 border-secondary pb-1 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] transition-all duration-200"
+          href="index.html"
+        >
+          Home
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200"
+          href="about.html"
+        >
+          About Us
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200"
+          href="portfolio.html"
+        >
+          Portfolio
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] duration-200"
+          href="volunteer.html"
+        >
+          Volunteer
+        </a>
+      </nav>
+
+      <div class="flex items-center">
+        <button class="md:hidden text-primary">
+          <span class="material-symbols-outlined" data-icon="menu">menu</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="flex-grow pt-24">
+
+    <!-- Hero Section -->
+    <section class="relative pt-12 pb-32 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto overflow-hidden bg-surface-container-lowest my-8 rounded-xl shadow-sm border border-surface-container-highest">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter relative z-10 p-8">
+
+        <div class="col-span-1 md:col-span-8 flex flex-col justify-center">
+
+          <div class="inline-flex items-center gap-2 mb-6 font-label-sm text-label-sm uppercase text-vital-green">
+            <span class="w-8 h-[1px] bg-vital-green"></span>
+            STRUCTURAL EMPATHY
+          </div>
+
+          <h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-8 tracking-tight max-w-3xl">
+            Building Digital Foundations for Social Good.
+          </h1>
+
+          <p class="font-body-md text-body-md text-on-surface-variant mb-12 max-w-2xl leading-relaxed">
+            We architect precise, human-centric digital experiences for mission-driven organizations.
+            Combining the rigor of blueprints with the warmth of community impact.
+          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <button
+              class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase px-8 py-4 rounded hover:text-on-secondary transition-colors flex items-center gap-2 border-b-2 border-secondary shadow-sm hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] hover:bg-vital-green"
+              onclick="window.location.href='portfolio.html'"
+              type="button"
+            >
+              View Portfolio
+              <span
+                class="material-symbols-outlined"
+                data-icon="architecture"
+                style="font-size: 20px;"
+              >
+                architecture
+              </span>
+            </button>
+
+            <button
+              class="bg-transparent border border-outline text-primary font-label-sm text-label-sm uppercase px-8 py-4 rounded hover:bg-surface-container transition-colors flex items-center gap-2 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)]"
+              onclick="window.location.href='volunteer.html'"
+              type="button"
+            >
+              Partner With Us
+            </button>
+          </div>
+
+        </div>
+
+        <div class="hidden md:block col-span-4 relative">
+          <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-[500px] h-[500px] border border-secondary/20 rounded-full flex items-center justify-center opacity-50">
+            <div class="w-[300px] h-[300px] border border-secondary/30 rounded-full flex items-center justify-center">
+              <div class="w-[100px] h-[100px] bg-secondary-container/30 rounded-full"></div>
             </div>
-<nav class="flex flex-wrap justify-center md:justify-end gap-6 mb-4 md:mb-0">
-<a class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors" href="#">Privacy Policy</a>
-<a class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors" href="#">Terms of Service</a>
-<a class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors" href="#">Impact Report</a>
-<a class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors" href="#">Contact</a>
-</nav>
-<div class="font-body-md text-body-md text-primary-fixed-dim mt-4 md:mt-0 w-full md:w-auto text-center md:text-right">
-                © 2024 Mission Driven. Building Foundations for Social Progress.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="py-24 px-margin-mobile md:px-margin-desktop bg-secondary/5 border-y border-secondary/10">
+      <div class="max-w-max-width mx-auto">
+
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+
+          <div>
+            <h2 class="font-headline-lg text-headline-lg text-primary mb-4">
+              Featured Projects
+            </h2>
+
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+              Architectural precision applied to real-world impact. Explore our recent
+              collaborations with visionary nonprofits.
+            </p>
+          </div>
+
+          <button
+            class="hidden md:flex text-secondary font-label-sm text-label-sm uppercase items-center gap-2 hover:text-secondary-container transition-colors mt-6 md:mt-0"
+            onclick="window.location.href='portfolio.html'"
+            type="button"
+          >
+            See All Projects
+            <span
+              class="material-symbols-outlined text-vital-green"
+              data-icon="arrow_outward"
+            >
+              arrow_outward
+            </span>
+          </button>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+
+          <!-- Project 1 -->
+          <div class="col-span-1 md:col-span-8 group architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 flex flex-col relative overflow-hidden">
+
+            <div class="flex justify-between items-start mb-6 z-10 relative">
+              <span class="font-label-sm text-label-sm uppercase text-on-surface-variant bg-surface-container px-3 py-1 rounded">
+                Environmental
+              </span>
+
+              <span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">
+                eco
+              </span>
             </div>
-</div>
-</footer>
-</body></html>
+
+            <div class="flex-grow z-10 relative mb-8">
+
+              <div class="h-64 w-full bg-surface-container-high rounded mb-6 overflow-hidden relative">
+                <img
+                  class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+                  data-alt="A clean, modern website interface displayed on a laptop screen for an environmental nonprofit called EcoYouth."
+                  src="images/ecoyouth.png"
+                  alt="EcoYouth project"
+                />
+
+                <div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors"></div>
+              </div>
+
+              <h3 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">
+                EcoYouth
+              </h3>
+
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Digital infrastructure supporting youth-led environmental initiatives
+                across urban centers.
+              </p>
+
+            </div>
+
+            <div class="mt-auto z-10 relative">
+              <button
+                class="text-secondary font-label-sm text-label-sm uppercase flex items-center gap-2 group-hover:gap-4 transition-all"
+                onclick="window.location.href='portfolio.html'"
+                type="button"
+              >
+                Learn More
+                <span class="material-symbols-outlined">east</span>
+              </button>
+            </div>
+
+            <div class="absolute -bottom-24 -right-24 w-64 h-64 border border-secondary/10 rounded-full z-0 group-hover:scale-110 transition-transform duration-700"></div>
+
+          </div>
+
+          <!-- Projects 2 & 3 -->
+          <div class="col-span-1 md:col-span-4 flex flex-col gap-gutter">
+
+            <!-- Project 2 -->
+            <div class="flex-1 architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 group relative overflow-hidden">
+
+              <div class="flex justify-between items-start mb-4 z-10 relative">
+                <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">
+                  Community
+                </span>
+
+                <span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">
+                  location_city
+                </span>
+              </div>
+
+              <h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2 z-10 relative">
+                City Shelter
+              </h3>
+
+              <p class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm z-10 relative">
+                Streamlining access to emergency housing resources.
+              </p>
+
+              <div class="h-32 w-full bg-surface-container-high rounded mb-4 overflow-hidden relative z-10">
+                <img
+                  class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+                  src="images/city-shelter.png"
+                  alt="City Shelter project"
+                />
+              </div>
+
+              <button
+                class="text-primary font-label-sm text-label-sm uppercase flex items-center gap-1 group-hover:text-secondary transition-colors z-10 relative mt-auto"
+                onclick="window.location.href='portfolio.html'"
+                type="button"
+              >
+                View Case Study
+                <span class="material-symbols-outlined text-sm">
+                  arrow_forward
+                </span>
+              </button>
+
+            </div>
+
+            <!-- Project 3 -->
+            <div class="flex-1 architectural-border bg-surface-container-lowest rounded p-6 hover:shadow-[0_10px_20px_rgba(15,23,42,0.05)] hover:border-secondary transition-all duration-300 group relative overflow-hidden">
+
+              <div class="flex justify-between items-start mb-4 z-10 relative">
+                <span class="font-label-sm text-label-sm uppercase text-on-surface-variant">
+                  Education
+                </span>
+
+                <span class="material-symbols-outlined text-outline-variant group-hover:text-secondary transition-colors">
+                  palette
+                </span>
+              </div>
+
+              <h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2 z-10 relative">
+                Arts For All
+              </h3>
+
+              <p class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm z-10 relative">
+                Interactive platform for accessible arts education.
+              </p>
+
+              <div class="h-32 w-full bg-surface-container-high rounded mb-4 overflow-hidden relative z-10">
+                <img
+                  class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+                  src="images/arts-for-all.png"
+                  alt="Arts For All project"
+                />
+              </div>
+
+              <button
+                class="text-primary font-label-sm text-label-sm uppercase flex items-center gap-1 group-hover:text-secondary transition-colors z-10 relative mt-auto"
+                onclick="window.location.href='portfolio.html'"
+                type="button"
+              >
+                View Case Study
+                <span class="material-symbols-outlined text-sm">
+                  arrow_forward
+                </span>
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section
+      class="py-24 px-margin-mobile md:px-margin-desktop relative bg-primary-container border-t-4 border-vital-green"
+      id="impact"
+    >
+      <div class="max-w-max-width mx-auto">
+
+        <div class="text-center mb-16">
+          <h2 class="font-headline-lg text-headline-lg text-on-primary mb-4">
+            Structural Impact
+          </h2>
+
+          <p class="font-body-md text-body-md text-inverse-on-surface max-w-2xl mx-auto opacity-90">
+            Measuring the tangible outcomes of well-architected digital solutions
+            in the nonprofit sector.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+          <!-- Stat 1 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
+              <span
+                class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors"
+                style="font-size: 32px;"
+              >
+                rocket_launch
+              </span>
+            </div>
+
+            <div class="font-display-lg text-display-lg text-on-primary mb-2">
+              45+
+            </div>
+
+            <div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
+
+            <h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">
+              Nonprofits Launched
+            </h4>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
+              <span
+                class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors"
+                style="font-size: 32px;"
+              >
+                favorite
+              </span>
+            </div>
+
+            <div class="font-display-lg text-display-lg text-on-primary mb-2">
+              $12M
+            </div>
+
+            <div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
+
+            <h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">
+              Donations Facilitated
+            </h4>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-full bg-surface/10 flex items-center justify-center mb-6 transition-colors group-hover:bg-vital-green">
+              <span
+                class="material-symbols-outlined text-primary-fixed group-hover:text-on-secondary-container transition-colors"
+                style="font-size: 32px;"
+              >
+                public
+              </span>
+            </div>
+
+            <div class="font-display-lg text-display-lg text-on-primary mb-2">
+              2M+
+            </div>
+
+            <div class="w-12 h-1 bg-outline-variant/30 mb-4 group-hover:bg-secondary transition-colors"></div>
+
+            <h4 class="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-wider">
+              Community Members Reached
+            </h4>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-primary-container dark:bg-surface-container-lowest w-full py-16 px-margin-desktop border-t-2 border-primary/20 transition-all duration-200">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-gutter max-w-max-width mx-auto">
+
+      <div class="font-headline-lg text-headline-lg-mobile text-on-primary dark:text-primary mb-4 md:mb-0">
+        Mission Driven
+      </div>
+
+      <nav class="flex flex-wrap justify-center md:justify-end gap-6 mb-4 md:mb-0">
+        <a
+          class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors"
+          href="#"
+        >
+          Privacy Policy
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors"
+          href="#"
+        >
+          Terms of Service
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors"
+          href="#"
+        >
+          Impact Report
+        </a>
+
+        <a
+          class="font-label-sm text-label-sm text-primary-fixed-dim dark:text-on-surface-variant hover:text-secondary-container transition-colors"
+          href="#"
+        >
+          Contact
+        </a>
+      </nav>
+
+      <div class="font-body-md text-body-md text-primary-fixed-dim mt-4 md:mt-0 w-full md:w-auto text-center md:text-right">
+        © 2026 Mission Driven. Building Foundations for Social Progress.
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

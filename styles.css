@@ -1648,3 +1648,41 @@ ul {
     font-size: 23px;
   }
 }
+
+@media (min-width: 1500px) {
+  .header-container,
+  .page-container,
+  .about-main,
+  .portfolio-main,
+  .volunteer-main,
+  .footer-container,
+  .hero-section {
+    width: min(1500px, calc(100% - 120px));
+  }
+
+  .portfolio-hero {
+    max-width: 1050px;
+  }
+
+  .website-portfolio-grid {
+    gap: 40px;
+  }
+
+  .website-project-image {
+    height: 380px;
+  }
+
+  .website-project-content {
+    padding: 32px;
+  }
+
+  .website-project-content h2 {
+    font-size: 30px;
+  }
+
+  .website-project-content p {
+    font-size: 17px;
+  }
+}
+
+width: min(1500px, calc(100% - 120px));

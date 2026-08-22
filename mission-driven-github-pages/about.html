@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>About Us - Mission Driven</title>
@@ -19,375 +19,274 @@
   <link href="styles.css" rel="stylesheet" />
 </head>
 
-<body class="page-about bg-surface-container text-on-background font-body-md antialiased min-h-screen flex flex-col">
+<body class="about-page">
 
-  <!-- Top Navigation -->
-  <header class="bg-surface-container-low/80 dark:bg-surface-container-highest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-primary dark:border-outline-variant transition-all duration-200 ease-in-out">
-    <div class="flex justify-between items-center w-full px-margin-desktop py-unit max-w-max-width mx-auto">
+  <header class="site-header">
+    <div class="header-container">
 
-      <div class="flex items-center gap-4">
-        <div class="h-10 w-10 overflow-hidden rounded"></div>
+      <a class="site-logo" href="index.html">
+        Mission Driven
+      </a>
 
-        <span class="font-headline-lg text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed">
-          Mission Driven
-        </span>
-      </div>
-
-      <nav class="hidden md:flex gap-8 items-center h-full">
-        <a
-          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] flex items-center h-full"
-          href="index.html"
-        >
-          Home
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm uppercase text-secondary font-bold border-b-2 border-secondary pb-1 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] flex items-center h-[calc(100%-4px)] mt-1"
-          href="about.html"
-        >
-          About Us
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] flex items-center h-full"
-          href="portfolio.html"
-        >
-          Portfolio
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_0px_rgba(173,51,0,1)] flex items-center h-full"
-          href="volunteer.html"
-        >
-          Volunteer
-        </a>
+      <nav class="main-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="about.html">About Us</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="volunteer.html">Volunteer</a>
       </nav>
 
-      <div class="flex items-center gap-4">
-        <button class="md:hidden text-primary">
-          <span class="material-symbols-outlined" data-icon="menu">
-            menu
-          </span>
-        </button>
-      </div>
+      <button class="mobile-menu-button" type="button">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
 
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="flex-grow w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop pt-32 pb-12 md:pb-24 flex flex-col gap-24 relative">
+  <main class="about-main">
 
-    <!-- Structural Background Lines -->
-    <div class="absolute inset-0 pointer-events-none hidden md:flex justify-between px-margin-desktop opacity-10">
-      <div class="w-px h-full bg-secondary"></div>
-      <div class="w-px h-full bg-secondary"></div>
-      <div class="w-px h-full bg-secondary"></div>
-      <div class="w-px h-full bg-secondary"></div>
-    </div>
+    <section class="about-hero">
 
-    <!-- Mission Hero -->
-    <section class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-gutter items-center min-h-[614px] bg-surface rounded-3xl p-6 md:p-12">
+      <div class="about-hero-content">
 
-      <div class="md:col-span-7 flex flex-col gap-6 structural-guide-y pl-6">
-
-        <div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest">
-          <span class="w-8 h-px bg-tertiary-fixed-dim"></span>
-          Our Mission
+        <div class="section-label">
+          <span class="section-label-line"></span>
+          Our Why
         </div>
 
-        <h1 class="font-display-lg text-display-lg text-primary">
-          Bridging the gap between nonprofits and modern technology.
+        <h1>
+          Helping Nonprofits Make a Bigger Impact Online 
         </h1>
 
-        <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-4">
-          We construct digital foundations that empower mission-driven organizations
-          to scale their impact. Applying architectural precision to software engineering,
-          we build robust, sustainable platforms for those who build better futures.
+        <p class="about-hero-description">
+          We design and build modern websites for nonprofits, helping organizations strengthen their online presence, share their mission, and connect with the communities they serve.
         </p>
 
-        <div class="mt-8 flex flex-wrap gap-4">
+        <div class="about-buttons">
 
-          <button
-            class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-8 py-4 rounded border border-primary hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[4px_4px_0px_0px_rgba(173,51,0,1)] transition-all"
-            onclick="window.location.href='about.html#metrics'"
-            type="button"
-          >
+          <a class="button button-primary" href="#metrics">
             View Our Framework
-          </button>
+          </a>
 
-          <button
-            class="bg-surface-container-lowest border border-primary text-primary font-label-sm text-label-sm px-8 py-4 rounded hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[4px_4px_0px_0px_rgba(173,51,0,1)] transition-all"
-            onclick="window.location.href='index.html#impact'"
-            type="button"
-          >
+          <a class="button button-secondary" href="index.html#impact">
             Read Impact Report
-          </button>
+          </a>
 
         </div>
 
       </div>
 
-      <div class="md:col-span-5 relative h-[500px] w-full mt-12 md:mt-0">
-        <div class="absolute inset-0 bg-secondary-container rounded border-2 border-primary -translate-x-4 translate-y-4"></div>
+      <div class="about-hero-image-wrap">
+
+        <div class="about-image-background"></div>
 
         <img
           src="images/about-hero.png"
           alt="Abstract representation of technology bridging gaps"
-          class="absolute inset-0 w-full h-full object-cover rounded border-2 border-primary transition-all duration-500 hover:ambient-shadow"
-          data-alt="A striking digital installation art piece featuring glowing generative geometric shapes suspended in a minimalist gallery space."
+          class="about-hero-image"
         />
+
       </div>
 
     </section>
 
-    <!-- Metrics -->
-    <section class="relative z-10 w-full pb-24" id="metrics">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <section class="metrics-section" id="metrics">
 
-        <!-- Metric 1 -->
-        <div class="p-8 border-2 border-primary rounded flex flex-col gap-4 hover:-translate-y-1 hover:ambient-shadow transition-all duration-300 bg-surface-container-lowest">
+      <div class="metrics-grid">
 
-          <div class="flex justify-between items-start">
-            <span class="material-symbols-outlined text-secondary text-3xl" data-icon="architecture">
+        <article class="metric-card">
+
+          <div class="metric-card-top">
+            <span class="material-symbols-outlined metric-icon">
               architecture
             </span>
 
-            <span class="font-label-sm text-label-sm text-on-surface-variant">
+            <span class="metric-label">
               Est. 2020
             </span>
           </div>
 
-          <div class="mt-4">
-            <h3 class="font-headline-lg text-headline-lg text-primary">
-              50+
-            </h3>
-
-            <p class="font-body-md text-body-md text-on-surface-variant">
-              Nonprofit Platforms Built
-            </p>
+          <div class="metric-content">
+            <h2>2+</h2>
+            <p>Nonprofit Platforms Built</p>
           </div>
 
-          <div class="w-full h-2 bg-surface-container-highest mt-4 flex rounded-full overflow-hidden border border-primary/20">
-            <div class="h-full w-[85%] bg-tertiary-fixed-dim"></div>
+          <div class="progress-bar">
+            <div class="progress-fill progress-85"></div>
           </div>
 
-        </div>
+        </article>
 
-        <!-- Metric 2 -->
-        <div class="p-8 border-2 border-primary rounded flex flex-col gap-4 hover:-translate-y-1 hover:ambient-shadow transition-all duration-300 bg-surface-container-lowest">
+        <article class="metric-card">
 
-          <div class="flex justify-between items-start">
-            <span class="material-symbols-outlined text-secondary text-3xl" data-icon="volunteer_activism">
+          <div class="metric-card-top">
+            <span class="material-symbols-outlined metric-icon">
               volunteer_activism
             </span>
 
-            <span class="font-label-sm text-label-sm text-on-surface-variant">
+            <span class="metric-label">
               Global Reach
             </span>
           </div>
 
-          <div class="mt-4">
-            <h3 class="font-headline-lg text-headline-lg text-primary">
-              12M
-            </h3>
-
-            <p class="font-body-md text-body-md text-on-surface-variant">
-              Lives Impacted Indirectly
-            </p>
+          <div class="metric-content">
+            <h2>00</h2>
+            <p>Lives Impacted Indirectly</p>
           </div>
 
-          <div class="w-full h-2 bg-surface-container-highest mt-4 flex rounded-full overflow-hidden border border-primary/20">
-            <div class="h-full w-[60%] bg-tertiary-fixed-dim"></div>
+          <div class="progress-bar">
+            <div class="progress-fill progress-60"></div>
           </div>
 
-        </div>
+        </article>
 
-        <!-- Metric 3 -->
-        <div class="p-8 border-2 border-primary rounded flex flex-col gap-4 hover:-translate-y-1 hover:ambient-shadow transition-all duration-300 bg-surface-container-lowest">
+        <article class="metric-card">
 
-          <div class="flex justify-between items-start">
-            <span class="material-symbols-outlined text-secondary text-3xl" data-icon="code_blocks">
+          <div class="metric-card-top">
+            <span class="material-symbols-outlined metric-icon">
               code_blocks
             </span>
 
-            <span class="font-label-sm text-label-sm text-on-surface-variant">
+            <span class="metric-label">
               Open Source
             </span>
           </div>
 
-          <div class="mt-4">
-            <h3 class="font-headline-lg text-headline-lg text-primary">
-              100k
-            </h3>
-
-            <p class="font-body-md text-body-md text-on-surface-variant">
-              Lines of Donated Code
-            </p>
+          <div class="metric-content">
+            <h2>10k+</h2>
+            <p>Lines of Donated Code</p>
           </div>
 
-          <div class="w-full h-2 bg-surface-container-highest mt-4 flex rounded-full overflow-hidden border border-primary/20">
-            <div class="h-full w-[95%] bg-tertiary-fixed-dim"></div>
+          <div class="progress-bar">
+            <div class="progress-fill progress-95"></div>
           </div>
 
-        </div>
+        </article>
 
       </div>
+
     </section>
 
-    <!-- Leadership Team -->
-    <section class="relative z-10 flex flex-col gap-12 bg-secondary-fixed/20 rounded-3xl p-6 md:p-12">
+    <section class="leadership-section">
 
-      <div class="flex flex-col gap-2 md:w-1/2 structural-guide-y pl-6">
-        <h2 class="font-headline-lg text-headline-lg text-primary">
-          Chief Architects
-        </h2>
+      <div class="leadership-heading">
+        <h2>Meet the Founders</h2>
 
-        <p class="font-body-md text-body-md text-on-surface-variant">
-          The minds drafting the blueprints for social change.
+        <p>
+          The team behind Mission Driven
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+      <div class="leadership-grid">
 
-        <!-- Founder -->
-        <div class="border-2 border-primary rounded overflow-hidden group hover:-translate-y-1 hover:ambient-shadow transition-all duration-300 bg-surface-container-lowest">
+        <article class="leader-card">
 
-          <div class="h-80 w-full relative bg-secondary-container overflow-hidden border-b-2 border-primary">
+          <div class="leader-image-wrap">
             <img
               src="images/eleanor-vance.png"
-              alt="Visionary Founder"
-              class="w-full h-full object-cover object-top transition-all duration-500 scale-100 group-hover:scale-105"
+              alt="Ryan Cha"
+              class="leader-image"
             />
           </div>
 
-          <div class="p-8 flex flex-col gap-4">
+          <div class="leader-content">
 
-            <div class="flex flex-wrap justify-between items-baseline gap-3 border-b-2 border-primary/10 pb-4">
-              <h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary">
-                Eleanor Vance
-              </h3>
-
-              <span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-3 py-1 rounded border-tertiary-fixed-dim border-2">
-                Founder &amp; CEO
-              </span>
+            <div class="leader-header">
+              <h3>Ryan Cha</h3>
+              <span class="leader-role">Founder</span>
+              
             </div>
 
-            <p class="font-body-md text-body-md text-on-surface-variant">
-              With over a decade of experience bridging Silicon Valley tech with global
-              NGO operations, Eleanor founded Mission Driven to apply scalable systems
-              thinking to humanitarian crises. She believes that a solid technical
-              foundation is a human right for organizations doing critical work.
+            <p>
+              Hi, my name is Ryan Cha. I'm a high school student with a passion in coding and design.
+              With these skills I am hoping to support non-profit organizations make a difference
+              in their communities by strengthening their online presence and helping them reach more people.
+             
             </p>
 
-            <ul class="flex flex-col gap-2 mt-2">
-              <li class="flex items-center gap-3 font-label-sm text-label-sm text-on-surface-variant">
-                <span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full border border-primary"></span>
-                Former Principal Architect at Nexus Systems
+            <ul class="leader-list">
+              <li>
+                <span class="leader-dot"></span>
+                Software Development
               </li>
 
-              <li class="flex items-center gap-3 font-label-sm text-label-sm text-on-surface-variant">
-                <span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full border border-primary"></span>
-                Board Member, Global Tech Relief
+              <li>
+                <span class="leader-dot"></span>
+                UX/UI Design
               </li>
             </ul>
 
           </div>
-        </div>
 
-        <!-- Technical Director -->
-        <div class="border-2 border-primary rounded overflow-hidden group hover:-translate-y-1 hover:ambient-shadow transition-all duration-300 md:mt-12 bg-surface-container-lowest">
+        </article>
 
-          <div class="h-80 w-full relative bg-tertiary-fixed-dim/20 overflow-hidden border-b-2 border-primary">
+        <article class="leader-card leader-card-offset">
+
+          <div class="leader-image-wrap">
             <img
               src="images/marcus-thorne.png"
-              alt="Technical Director"
-              class="w-full h-full object-cover object-top transition-all duration-500 scale-100 group-hover:scale-105"
+              alt="Marcus Thorne"
+              class="leader-image"
             />
           </div>
 
-          <div class="p-8 flex flex-col gap-4">
+          <div class="leader-content">
 
-            <div class="flex flex-wrap justify-between items-baseline gap-3 border-b-2 border-primary/10 pb-4">
-              <h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary">
-                Marcus Thorne
-              </h3>
-
-              <span class="font-label-sm text-label-sm text-tertiary-fixed-dim bg-tertiary-container px-3 py-1 rounded border-tertiary-fixed-dim border-2">
-                Technical Director
+            <div class="leader-header">
+              <h3>Marcus Thorne</h3>
+              <span class="leader-role leader-role-dark">
+                Founder
               </span>
             </div>
 
-            <p class="font-body-md text-body-md text-on-surface-variant">
+            <p>
               Marcus engineers the structural integrity of every project. Specializing
               in high-availability, low-bandwidth solutions, he ensures that technology
               deployed in remote or resource-constrained environments operates reliably
               when it matters most.
             </p>
 
-            <ul class="flex flex-col gap-2 mt-2">
-              <li class="flex items-center gap-3 font-label-sm text-label-sm text-on-surface-variant">
-                <span class="w-2 h-2 bg-secondary rounded-full border border-primary"></span>
+            <ul class="leader-list">
+              <li>
+                <span class="leader-dot leader-dot-orange"></span>
                 Lead Engineer for Project Connectivity
               </li>
 
-              <li class="flex items-center gap-3 font-label-sm text-label-sm text-on-surface-variant">
-                <span class="w-2 h-2 bg-secondary rounded-full border border-primary"></span>
+              <li>
+                <span class="leader-dot leader-dot-orange"></span>
                 Open Source Contributor &amp; Maintainer
               </li>
             </ul>
 
           </div>
-        </div>
+
+        </article>
 
       </div>
+
     </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-primary border-t-2 border-primary dark:border-outline w-full py-16 px-margin-desktop mt-auto">
-    <div class="flex flex-col md:flex-row justify-between items-start gap-gutter max-w-max-width mx-auto">
+  <footer class="site-footer">
+    <div class="footer-container">
 
-      <div class="flex flex-col gap-4 mb-4 md:mb-0">
+      <div class="footer-brand-section">
 
-        <div class="font-headline-lg text-headline-lg-mobile text-on-primary">
+        <div class="footer-brand">
           Mission Driven
         </div>
 
-        <div class="font-body-md text-body-md text-on-primary/80 max-w-sm">
+        <p class="footer-copyright">
           © 2026 Mission Driven. Building Foundations for Social Progress.
-        </div>
+        </p>
 
       </div>
 
-      <nav class="flex flex-col gap-4 mb-4 md:mb-0">
-        <a
-          class="font-label-sm text-label-sm text-on-primary/80 hover:text-secondary-fixed transition-colors"
-          href="index.html"
-        >
-          Home
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm text-on-primary/80 hover:text-secondary-fixed transition-colors"
-          href="about.html"
-        >
-          About Us
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm text-on-primary/80 hover:text-secondary-fixed transition-colors"
-          href="portfolio.html"
-        >
-          Portfolio
-        </a>
-
-        <a
-          class="font-label-sm text-label-sm text-on-primary/80 hover:text-secondary-fixed transition-colors"
-          href="volunteer.html"
-        >
-          Volunteer
-        </a>
+      <nav class="footer-nav vertical-footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="volunteer.html">Volunteer</a>
       </nav>
 
     </div>
